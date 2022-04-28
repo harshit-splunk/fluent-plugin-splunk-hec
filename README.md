@@ -64,7 +64,7 @@ This example shows the configuration to be used for sending events to ingest API
 
 ```
 <match **>
-  @type splunk_hec
+  @type  splunk_hec
   hec_host 12.34.56.78
   hec_port 8088
   hec_token 00000000-0000-0000-0000-000000000000
